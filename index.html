@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Real-Time Bus Tracker</title>
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+		<script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+		<link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+		<link rel="stylesheet" href="styles.css">
+
+		</head>
+<body>
+<div class="top">
+	<h2>Real-Time Bus Tracker: MBTA</h2>
+	<p>Click on marker to see bus info</p>
+</div>
+	<div class="input">
+		<input type="text" id="busRouteInput" placeholder="Enter bus route here"/>
+		<button id="findBusRoute" onclick="move()">Track Bus</button>
+	</div>
+
+	<div id="map"></div>
+
+	<script src="mapanimation.js"></script>
+	
+</body>
+</html>

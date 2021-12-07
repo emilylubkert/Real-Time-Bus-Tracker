@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2 {
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+#map {
+  position: absolute;
+  top: 120px;
+  bottom: 0;
+  width: 100%;
+}
+
+.map-overlay {
+  position: absolute;
+  left: 0;
+  padding: 10px;
+}
+
+.input {
+    justify-self: right;
+    margin-left: 15px;
+    margin-top: 15px;
+}
